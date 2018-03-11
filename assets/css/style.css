@@ -1,4 +1,12 @@
 /***************basic *****************/
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 1px rgb(3,29,91);
+    margin: 1em 0;
+    padding: 0; 
+}
 @font-face 
 {
 font-family: "Harabara Bold";
@@ -173,7 +181,7 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 	background-size: 300%;
 	margin: auto;
 }
-.carousel-inner .item
+#myCarousel .carousel-inner .item
 {
 	height: 460px;
 	padding: 10px;
@@ -212,15 +220,90 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 {
 	padding-top: 12%;
 }
+#frontArticleUp
+{
+	height: 200px;
+}
+#articleLeftImg
+{
+	height: 160px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#myCarousel1, #myCarousel1.carousel-inner
+{
+	float: right;
+	height: 400px;
+	background-color: white;
+}
+#myCarousel1
+{
+	position: relative;
+}
+#frontArticleUp p
+{
+	margin-top: 10px;
+}
+#myCarousel1 ol
+{
+	margin-top: 50px;
+}
+#frontArticleDown p
+{
+	font-family: "Myriad Pro", Myriad;
+	font-size: 20px;
+	text-align: left;
+	padding: 8px;
+	height: 100%;
+}
+#carousel1Progress
+{
+	bottom: 0;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+#articleRight
+{
+	height: 190px;
+	width: 100%;
+	background-color: white;
+	margin-bottom: 20px;
+}
+#articleRightImg
+{
+	height: 190px;
+	background-repeat: no-repeat;
+	background-size: 35% 120%;
+}
+#articleRightText
+{
+	padding-left: 125px;
+	text-align: left;
+	color: rgb(3,29,91);
+}
+#articleRightText span
+{
+	font-size: 13px;
+	font-family: "Myriad Pro", Myriad;
+}
+#articleRightText p
+{
+	font-size: 18px;
+	font-family: "Myriad Pro", Myriad;
+}
+
 /***********************carousel**************************/
+
 .carousel-indicators-numbers li
 {
+	padding: 3px 0 !important;
 	text-indent: 0 !important;
-	margin: 0 2px !important;
+	margin: 0 0px !important;
 	width: 30px !important;
 	height: 30px !important;
 	border: none !important;
-	border-radius: 100% !important;
+	border-radius: 0 !important;
 	line-height: 30px !important;
 	color: #fff !important;
 	background-color: #999 !important;
@@ -228,11 +311,44 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 } 
 .carousel-indicators-numbers li:active, .carousel-indicators-numbers li:hover
 {
-    margin: 0 2px !important;
     width: 30px !important;
     height: 30px !important;
     background-color: #337ab7 !important;
 }
+
+
+
+/**************carousel 2********************/
+#myCarousel3 .carousel-inner .item.left.active {
+  transform: translateY(-50%) !important;
+}
+#myCarousel3 .carousel-inner .item.right.active {
+  transform: translateY(50%) !important;
+}
+
+#myCarousel3 .carousel-inner .item.next {
+  transform: translateY(50%) !important;
+}
+#myCarousel3 .carousel-inner .item.prev {
+  transform: translateY(-50%) !important;
+}
+
+#myCarousel3 .carousel-inner .item.right,
+#myCarousel3 .carousel-inner .item.left { 
+  transform: translateX(0) !important;
+}
+#myCarousel3 .carousel-control.left {
+  margin-left: -10% !important;
+}
+
+#myCarousel3 .carousel-control.right {
+  margin-right: -10% !important;
+}
+
+
+
+
+
 /***********************carousel**************************/
 
 
@@ -265,29 +381,29 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 }
 
 /**************************** carousel********************************/
-.carousel-inner .item.left.active {
+#myCarousel2 .carousel-inner .item.left.active {
   transform: translateX(-33%) !important;
 }
-.carousel-inner .item.right.active {
+#myCarousel2 .carousel-inner .item.right.active {
   transform: translateX(33%) !important;
 }
 
-.carousel-inner .item.next {
+#myCarousel2 .carousel-inner .item.next {
   transform: translateX(33%) !important;
 }
-.carousel-inner .item.prev {
+#myCarousel2 .carousel-inner .item.prev {
   transform: translateX(-33%) !important;
 }
 
-.carousel-inner .item.right,
-.carousel-inner .item.left { 
+#myCarousel2 .carousel-inner .item.right,
+#myCarousel2 .carousel-inner .item.left { 
   transform: translateX(0) !important;
 }
-.carousel-control.left {
+#myCarousel2 .carousel-control.left {
   margin-left: -5% !important;
 }
 
-.carousel-control.right {
+#myCarousel2 .carousel-control.right {
   margin-right: -5% !important;
 }
 
@@ -342,6 +458,10 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 	background-color: rgb(235,255,254);
 	min-height: 120px;
 	line-height: 120px;
+}
+#footerBg p
+{
+	font-size: 12px;
 }
 #socialMedia
 {

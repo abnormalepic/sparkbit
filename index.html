@@ -294,68 +294,141 @@
 						<p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
 						<a id="linkButton" href="#">all article &nbsp; <i style="font-size:16px" class="fa">&#xf178;</i></i></a>
 					</div>
-					<div class="col-md-7 col-md-offset-1">
-						<div id="myCarousel1" class="carousel slide col-md-8 col-md-offset-2" data-ride="carousel" style="float: right;">
-
-							<ol class="carousel-indicators carousel-indicators-numbers">
-								<li data-target="#myCarousel1" data-slide-to="0" class="active">1</li>
-								<li data-target="#myCarousel1" data-slide-to="1">2</li>
-								<li data-target="#myCarousel1" data-slide-to="2">3</li>
-							</ol>
-
+					<div class="col-md-3 col-md-offset-1">
+						<div id="myCarousel1" class="carousel slide" data-ride="carousel" data-interval="false">
 							<div class="carousel-inner">
-								<div class="item active text-center">
-									<div>
-										<div>
-											<img class="img img-responsive" src="assets/images/article-1.jpg">
-											<div id="name-des">
-												<p id="name">NOVEMBER, 2017</p>
-											</div>
-										</div>
-										<hr>
-										<div>
-											<p>Alibaba is buying Israeli startup Visualead’s tech to establish a Tel Aviv R&D center</p>
-										</div>
+								<div class="item active text-center"  data-step="1">
+									<div id="frontArticleUp">
+										<div id="articleLeftImg" style="background-image: url(assets/images/article-1.jpg);"></div>
+										<p id="name">NOVEMBER, 2017</p>
 									</div>
-								</div>	
-								<div class="item text-center">
-									<div>
-										<div>
-											<img class="img img-responsive" src="assets/images/article-2.jpg">
-											<div id="name-des">
-												<p id="name">NOVEMBER, 2017</p>
-											</div>
-										</div>
-										<hr>
-										<div>
-											<p>Economist Tyler Cowen talks about the value of despair</p>
-										</div>
+									<hr>
+									<div id="frontArticleDown">
+										<p>Alibaba is buying Israeli startup Visualead’s tech to establish a Tel Aviv R&D center</p>
 									</div>
 								</div>
-								<div class="item text-center">
-									<div>
-										<div>
-											<img class="img img-responsive" src="assets/images/article-3.jpg">
-											<div id="name-des">
-												<p id="name">NOVEMBER, 2017</p>
-											</div>
-										</div>
-										<hr>
-										<div>
-											<p>Yext sees 39% revenue growth in latest quarter</p>
-										</div>
+								<div class="item text-center"  data-step="2">
+									<div id="frontArticleUp">
+										<div id="articleLeftImg" style="background-image: url(assets/images/article-2.jpg);"></div>
+										<p id="name">NOVEMBER, 2017</p>
+									</div>
+									<hr>
+									<div id="frontArticleDown">
+										<p>Economist Tyler Cowen talks about the value of despair</p>
 									</div>
 								</div>	
+								<div class="item text-center"  data-step="3">
+									<div id="frontArticleUp">
+										<div id="articleLeftImg" style="background-image: url(assets/images/article-3.jpg);"></div>
+										<p id="name">NOVEMBER, 2017</p>
+									</div>
+									<hr>
+									<div id="frontArticleDown">
+										<p>Yext sees 39% revenue growth in latest quarter</p>
+									</div>
+								</div>
+								<div class="item text-center"  data-step="4">
+									<div id="frontArticleUp">
+										<div id="articleLeftImg" style="background-image: url(assets/images/article-3.jpg);"></div>
+										<p id="name">NOVEMBER, 2017</p>
+									</div>
+									<hr>
+									<div id="frontArticleDown">
+										<p>Yext sees 39% revenue growth in latest quarter</p>
+									</div>
+								</div>
 							</div>
-							<a class="left carousel-control" href="#myCarousel1" data-slide="prev">
+							<div class="progress" id="carousel1Progress">
+								<div class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="4" style="width: 25%; background-color: rgb(3,29,91);">1/4</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-buttons col-md-4">
+						<div id="myCarousel3" class="carousel slide multi-item-carousel-2" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<a data-target="#myCarousel1" data-slide-to="0" href="#">
+										<div class="col-xs-12 text-center" id="articleRight">
+											<div id="articleRightImg" style="background-image: url(assets/images/article-1.jpg);">
+												<div  id="articleRightText">
+													<span>NOVEMBER, 2017</span>
+													<hr>
+													<p>
+														Alibaba is buying Israeli startup Visualead’s tech to establish a Tel Aviv R&D center
+													</p>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="item">
+									<a data-target="#myCarousel1" data-slide-to="1" href="#">
+										<div class="col-xs-12 text-center" id="articleRight">
+											<div id="articleRightImg" style="background-image: url(assets/images/article-2.jpg);">
+												<div  id="articleRightText">
+													<span>NOVEMBER, 2017</span>
+													<hr>
+													<p>
+														Economist Tyler Cowen talks about the value of despair
+													</p>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>	
+								<div class="item">
+									<a data-target="#myCarousel1" data-slide-to="2" href="#">
+										<div class="col-xs-12 text-center" id="articleRight">
+											<div id="articleRightImg" style="background-image: url(assets/images/article-3.jpg);">
+												<div  id="articleRightText">
+													<span>NOVEMBER, 2017</span>
+													<hr>
+													<p>
+														Yext sees 39% revenue growth in latest quarter
+													</p>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>	
+								<div class="item">
+									<a data-target="#myCarousel1" data-slide-to="3" href="#">
+										<div class="col-xs-12 text-center" id="articleRight">
+											<div id="articleRightImg" style="background-image: url(assets/images/article-3.jpg);">
+												<div id="articleRightText">
+													<span>NOVEMBER, 2017</span>
+													<hr>
+													<p>
+														Yext sees 39% revenue growth in latest quarter
+													</p>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<a class="left carousel-control" href="#myCarousel3" data-slide="prev">
 								<span class="glyphicon glyphicon-chevron-left"></span>
 								<span class="sr-only">Previous</span>
 							</a>
-							<a class="right carousel-control" href="#myCarousel1" data-slide="next">
+							<a class="right carousel-control" href="#myCarousel3" data-slide="next">
 								<span class="glyphicon glyphicon-chevron-right"></span>
 								<span class="sr-only">Next</span>
 							</a>
 						</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 					</div>
 				</div>
 			</div>
@@ -451,20 +524,20 @@
 		<div id="footerBg">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-2">
-						<p>&copy; 2017 Sparkbit</p>
+					<div class="col-xs-5">
+						<p>&copy;2017 Sparkbit</p>
 					</div>
-					<div class="col-md-2 col-md-offset-3 text-center">
-						<a href="#firstPage"><span class="btn btn-default">&#8593;</span></a>
+					<div class="col-xs-1 text-center">
+						<a href="#firstPage"><span class="btn">&#8593;</span></a>
 					</div>
-					<div class="col-md-2 col-md-offset-3 text-right" id="socialMedia">
+					<div class="col-xs-6 text-right" id="socialMedia">
 						<div class="row">
-							<a href="#"><i class="fa fa-behance col-md-2"></i></a>
-							<a href="#"><i class="fa fa-facebook col-md-2"></i></a>
-							<a href="#"><i class="fa fa-dribbble col-md-2"></i></a>
-							<a href="#"><i class="fa fa-github col-md-2"></i></a>
-							<a href="#"><i class="fa fa-linkedin col-md-2"></i></a>
-							<a href="#"><i class="fa fa-twitter col-md-2"></i></a>
+							<a href="#"><i class="fa fa-behance  col-md-1 col-md-offset-6 col-xs-2"></i></a>
+							<a href="#"><i class="fa fa-facebook  col-md-1 col-xs-2"></i></a>
+							<a href="#"><i class="fa fa-dribbble  col-md-1 col-xs-2"></i></a>
+							<a href="#"><i class="fa fa-github  col-md-1 col-xs-2"></i></a>
+							<a href="#"><i class="fa fa-linkedin  col-md-1 col-xs-2"></i></a>
+							<a href="#"><i class="fa fa-twitter  col-md-1 col-xs-2"></i></a>
 						</div>
 					</div>
 				</div>
