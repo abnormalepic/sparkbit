@@ -199,9 +199,19 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 	background-repeat: no-repeat;
 	background-size: 60% 100%;
 }
+#portfolioLeftImg
+{
+	width: 80%;
+	padding-bottom: 80%;
+	border-radius: 10%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	margin: auto;
+}
 #portfolioRight
 {
-	margin-top: 12%;
+	margin-top: 8%;
 }
 
 
@@ -433,31 +443,36 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 #myCarousel3 .carousel-inner .item.left { 
   transform: translateX(0) !important;
 }
-#myCarousel3 .carousel-control.left 
+#myCarousel3 .carousel-control.left span.glyphicon
 {
   transform: rotate(90deg);
   margin-top: -130% !important;
 }
 
-#myCarousel3 .carousel-control.right 
+#myCarousel3 .carousel-control.right span.glyphicon
 {
   transform: rotate(90deg);
   margin-top: -130% !important;
 }
 @media (max-width: 1000px) 
 {
-	#myCarousel3 .carousel-control.left 
+	#myCarousel3 .carousel-control.left span.glyphicon
 	{
 	  transform: rotate(90deg);
 	  margin-top: 840px !important;
 	}
 
-	#myCarousel3 .carousel-control.right 
+	#myCarousel3 .carousel-control.right span.glyphicon
 	{
 	  transform: rotate(90deg);
 	  margin-top: 840px !important;
 	}
 
+}
+#car3Left, #car3Right
+{
+	width: 40px !important;
+	height: 40px !important;
 }
 
 /***********************carousel**************************/
