@@ -1,6 +1,7 @@
 /***************media 994px***************/
 
-@media (max-width: 1000px) {
+@media (max-width: 1000px) 
+{
     .navbar-header {
         float: none;
     }
@@ -46,7 +47,7 @@
        box-shadow: none;
     }
     .container{
-        width: 100%;
+        min-width: 100%;
     }
 }
 
@@ -140,6 +141,11 @@ url("css/fonts/Harabara.svg#filename") format("svg");
 #homeLeft
 {
 	margin-top: 12%;
+	margin-bottom: 12%;
+}
+#homeRight img
+{
+	float: right;
 }
 
 /*********************about*********************/
