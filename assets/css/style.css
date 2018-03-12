@@ -49,10 +49,17 @@
     .container{
         min-width: 100%;
     }
-    *
+    p
     {
     	text-align: center;
     	margin: auto;
+    	font-size: 30px !important;
+    }
+    h1,h3
+    {
+    	font-size: 40px !important;
+    	font-weight: bold;
+
     }
 }
 
